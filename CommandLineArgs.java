@@ -9,7 +9,7 @@ public class CommandLineArgs {
             int b = Integer.parseInt(args[1]);
             int sum = a + b;
             System.out.println("Sum is " + sum);
-        }catch(NumberFormatException e){
+        }catch(NumberFormatException e){                //this exception is to catch the string entered
             counter = counter + 1;
         }
             System.out.println("Please provide valid integers");
